@@ -6,7 +6,7 @@ Created with [create-react-app](https://github.com/facebook/create-react-app).
 
 ### Install
 
-1.  `git clone https://github.com/GoodNello/movie-search.git`
+1.  `git clone https://github.com/GoodNello/movie-search-omdb.git`
 2.  [Request an API key](http://www.omdbapi.com/apikey.aspx) from OMDb and paste it inside src/API_KEY.js
 3.  `npm build start` or `yarn start`
 

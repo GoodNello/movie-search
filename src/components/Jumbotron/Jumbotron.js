@@ -18,7 +18,7 @@ class Jumbotron extends React.Component {
     });
 
     axios
-      .get(`http://www.omdbapi.com/?apikey=${API_KEY}&i=tt3896198`)
+      .get(`http://www.omdbapi.com/?apikey=${API_KEY}&t=${searchText}`)
       .then(response => {
         if (response.status === 200) {
           this.setState({

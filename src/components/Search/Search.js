@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Search.css";
+
 export default class Search extends React.Component {
   constructor() {
     super();
@@ -22,7 +24,7 @@ export default class Search extends React.Component {
   }
   render() {
     return (
-      <form className="form-inline" onSubmit={this.onSubmit.bind(this)}>
+      <form className="form-inline search" onSubmit={this.onSubmit.bind(this)}>
         <input
           className="form-control form-control-lg"
           type="search"

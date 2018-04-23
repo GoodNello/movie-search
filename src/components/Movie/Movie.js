@@ -32,14 +32,15 @@ export default class Movie extends React.Component {
           <div className="row">
             <div className="col-sm-12 col-md-6">
               <p className="lead">{Plot}</p>
-              With: {Actors}
+              <p>Directed by {Director}</p>
+              <p>With {Actors}</p>
               <ul>
                 <li>Production: {Production}</li>
                 <li>Awards: {Awards}</li>
               </ul>
             </div>
-            <div className="col-sm-12 col-md-6">
-              <img src={Poster} with="150" />
+            <div className="col-sm-12 col-md-6" align="center">
+              <img alt={`${Title} Poster`} src={Poster} with="150" />
             </div>
           </div>
         </div>
